@@ -1,0 +1,124 @@
+.navbar{
+    min-height: 10vh;
+    display: flex;
+
+}
+
+.logo{
+    margin-bottom: 3vh;
+}
+
+nav ul{
+    flex-wrap: wrap;
+
+}
+nav ul li{
+    padding: 0 1em;
+
+    /* margin-top: 50%; */
+}
+nav ul li a{
+    color: black;
+    font-weight: bold;
+}
+form{
+    height: 5vh;
+}
+
+.formContainer{
+    display: flex;
+    margin: 15px;
+}
+.FormSoeg{
+    height: 30px;
+    margin-right: 9vw;
+}
+.FormSoeg input{
+    background-color: rgb(221, 221, 221);
+    border: none;
+    height: 30px;
+}
+.FormSoeg button{
+    height: 30px;
+    background-color: rgb(243, 243, 243);
+    border: 1px solid rgba(197, 197, 197, 0.596);
+    padding: 0 15px;
+}
+.logIn{
+    border: none;
+}
+.loginBtn{
+    height: 30px;
+    min-width: 5vw;
+    border: none;
+}
+.lockIcon{
+    height: 30px;
+    margin-bottom: 2px; 
+    color: black;
+    background-color: black;
+}
+    
+
+
+
+.stroke ul li a,
+.stroke ul li a:after,
+.stroke ul li a:before {
+  transition: all .5s;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  /* color: #555; */
+}
+
+
+/* stroke */
+nav.stroke ul li a{
+  position: relative;
+}
+nav.stroke ul li a:after {
+  position: absolute;
+  bottom: -20px;
+  top: 0px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '';
+  color: transparent;
+  background: #aaa;
+  height: 1.5px;
+}
+nav.stroke ul li a:hover:after {
+  width: 100%;
+}
+.stroke ul li a.active{
+    /* color: rgb(9, 74, 214); */
+    /* color: rgb(0, 0, 0); */
+    text-decoration: underline #aaa;
+    text-underline-position: under;
+}
+
+
+
+.loginBtn a{
+    text-decoration: none;
+}
+
+.loginContainer{
+    height: 70vh;
+    width: 100vw;
+    position: relative;
+}
+
+
+.loginContainer form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 30vh;
+    width: 30vw;
+    background-color: antiquewhite;
+}

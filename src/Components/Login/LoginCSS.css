@@ -1,0 +1,37 @@
+.loginContainer{
+    background-color: rgb(255, 255, 255);
+}
+.loginContainer form{
+    border-radius: 10px;
+    min-height: 300px;
+    min-width: 350px;
+    background-color: rgba(180, 180, 180, 0.63);
+    /* filter: blur(12px); */
+    /* padding: 10em; */
+}
+
+.loginContainer form label{
+    padding-top: 2em;
+    text-align: start;
+}
+
+.loginContainer form input{
+    border-radius: 8px;
+    border: none;
+    padding:0.3em;
+    
+}
+
+.loginContainer form button{
+    background-color: black;
+    color: white;
+    padding: 0.4em 1em;
+    transition: all 0.5s;
+    margin: 10px;
+}
+
+.loginContainer form button:hover{
+    margin: 50px;
+    color: white;
+    padding: 0.36em 0.7em;
+}

@@ -1,0 +1,21 @@
+.homeBgr{
+    background-image: url("/img/scuba2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    overflow: hidden;
+}
+
+.bgrTxt{
+    margin-top: 10%;
+    padding: 5em;
+    background-color: rgba(226, 226, 226, 0.835);
+}
+.homeBgr h4{
+    white-space: wrap;
+    font-size: 140%;
+}
+h1{
+    font-size: 2em;
+}

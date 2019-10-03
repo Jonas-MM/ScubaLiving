@@ -1,0 +1,42 @@
+footer{
+    background-color: black;
+    color: white!important;
+    
+}
+
+footer nav{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 7vh;
+
+
+}
+.footerNav ul li a{
+    color: white;
+    font-weight: 500;
+}
+
+footer h6 {
+    padding-top: 5em;
+    font-weight: 600;
+    text-align: left;
+    color: white;
+}
+footer li{
+    padding-left: 0!important;
+    text-align: left;
+    color: white;
+    
+    /* justify-content: space-evenly;  */
+}
+
+footer
+
+footer ul{
+    margin-bottom: 15em;
+    /* margin: 0 50px; */
+}
+
+.test{
+    /* width: fit-content; */
+}

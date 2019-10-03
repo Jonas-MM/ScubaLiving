@@ -1,0 +1,19 @@
+.certifikat{
+    border: 2px solid rgb(100, 100, 100)190, 185, 185);
+    /* margin: 0 30px; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow:hidden;
+}
+
+.certifikatTxt{
+    padding: 2em;
+    overflow: hidden;
+}
+
+.certifikatImg{
+    overflow: hidden;
+}
+
+.certifikat h4{
+    white-space: pre-wrap;
+}

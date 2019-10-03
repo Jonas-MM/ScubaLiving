@@ -1,0 +1,17 @@
+.verden{
+    background-color: white;
+}
+.verden img{
+    max-width: 100%;
+    padding:5em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/* .verdenListe{
+    padding: 0px 15px;
+} */
+
+.verdenTxt{
+    background-color: black;
+    padding:3em;
+    color: white;
+}
